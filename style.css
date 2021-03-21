@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #3498db;
+    height: 80px;
+}
+.header-logo{
+    height: 80px;
+}
+.main-menu{}
+.main-menu ul{}
+.main-menu ul li{}
+.main-menu ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: -4px;
+    transition: .5s;
+    color: white;
+    height: 80px;
+}
+.main-menu ul li a:hover{
+    background-color: #2980b9;
+
+}
+.banner{
+    background-image: url("https://thumbs.dreamstime.com/b/top-view-office-desk-table-laptop-notepad-sellphone-cup-black-coffee-green-plant-desk-table-office-laptop-notepad-143440240.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 164px;
+}
+.banner h1{
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: #a4afb4;
+    font-size: 25px;
+}
+.banner h2{
+    padding: 10px 15px;
+    width: 385px;
+    border-radius: 7px;
+    background-color: #74b9ff;
+    font-size: 30px;
+}
+.about-us{
+    background-color: #dfe6e9;
+}
+.service{
+    background-color: #f1f2f6;
+}
+.service-itme{
+    background-color: #f7f7f7;
+    transform: scale(1);
+    transition: .5s;
+}
+.service-itme i{
+    margin: 20px 0;
+    background-color: #3498db;
+    color: white;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 30px;
+    border-radius: 20px 0;
+    margin: 20px auto;
+}
+.service-itme:hover{
+    transform: scale(1.1);
+}
+.blog img{
+    width: 100%;
+}
+.footer{
+    background-color: #34495e;
+}
+.footer p, ul{
+    margin-bottom: 0;
+}
